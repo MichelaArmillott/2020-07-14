@@ -3,6 +3,7 @@ package it.polito.tdp.PremierLeague.model;
 public class Team {
 	Integer teamID;
 	String name;
+	public int puntiCampionato=0;
 
 	public Team(Integer teamID, String name) {
 		super();
